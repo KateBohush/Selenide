@@ -1,12 +1,14 @@
-import core.CustomException;
+package net.ukr.uitest;
+
+import net.ukr.core.CustomException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pageBO.HomePageBO;
-import utill.PropertyLoader;
+import net.ukr.pageBO.HomePageBO;
+import net.ukr.utill.PropertyLoader;
 
 import java.util.Arrays;
 
-import static utill.Constants.*;
+import static net.ukr.utill.Constants.*;
 
 public class UkrNetTest extends UIBaseTest {
 

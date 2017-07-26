@@ -1,9 +1,9 @@
-package page;
+package net.ukr.page;
 
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import core.Utills;
+import net.ukr.core.Utills;
 import org.openqa.selenium.By;
 
 import java.util.List;

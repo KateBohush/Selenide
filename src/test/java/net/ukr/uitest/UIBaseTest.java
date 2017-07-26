@@ -1,17 +1,18 @@
+package net.ukr.uitest;
+
 import com.codeborne.selenide.junit.ScreenShooter;
 import org.junit.Rule;
 import org.testng.ITestResult;
-import org.testng.TestNG;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.apache.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
-import utill.PropertyLoader;
+import net.ukr.utill.PropertyLoader;
 
 
 import static com.codeborne.selenide.WebDriverRunner.closeWebDriver;
-import static utill.Constants.CHROME_DRIVER;
-import static utill.Constants.SELENID_BROWSER;
+import static net.ukr.utill.Constants.CHROME_DRIVER;
+import static net.ukr.utill.Constants.SELENID_BROWSER;
 
 public abstract class UIBaseTest {
 

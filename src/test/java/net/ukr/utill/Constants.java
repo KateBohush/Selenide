@@ -1,4 +1,4 @@
-package utill;
+package net.ukr.utill;
 
 public class Constants {
    public static final String USER_EMAIL = "user.email";

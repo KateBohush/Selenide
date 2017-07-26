@@ -1,4 +1,4 @@
-package pageBO;
+package net.ukr.pageBO;
 
 import org.apache.log4j.Logger;
 

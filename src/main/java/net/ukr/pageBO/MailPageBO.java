@@ -1,6 +1,6 @@
-package pageBO;
+package net.ukr.pageBO;
 
-import page.MailPage;
+import net.ukr.page.MailPage;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public class MailPageBO extends PageBO {
    }
 
    public MailPageBO verifyNumbersOfLetterOnPage(int number) {
-      LOG.info("Verify if on page 25 letters are displayed");
+      LOG.info("Verify if on net.ukr.page 25 letters are displayed");
       mailPage.getLetters()
             .shouldHaveSize(number);
       return this;

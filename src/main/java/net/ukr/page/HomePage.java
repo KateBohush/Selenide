@@ -1,7 +1,7 @@
-package page;
+package net.ukr.page;
 
 import com.codeborne.selenide.Selenide;
-import core.CustomException;
+import net.ukr.core.CustomException;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;

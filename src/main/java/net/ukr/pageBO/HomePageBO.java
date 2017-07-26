@@ -1,6 +1,6 @@
-package pageBO;
+package net.ukr.pageBO;
 
-import page.HomePage;
+import net.ukr.page.HomePage;
 
 public class HomePageBO extends PageBO {
 

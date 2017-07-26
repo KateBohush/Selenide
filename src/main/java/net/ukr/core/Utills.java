@@ -1,4 +1,4 @@
-package core;
+package net.ukr.core;
 
 
 import com.codeborne.selenide.Selenide;

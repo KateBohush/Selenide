@@ -1,10 +1,10 @@
-package utill;
+package net.ukr.utill;
 
 
 import java.io.IOException;
 import java.util.Properties;
 
-import static utill.Constants.PROPERTY_FILE_PATH;
+import static net.ukr.utill.Constants.PROPERTY_FILE_PATH;
 
 public class PropertyLoader {
    public static Properties prop = new Properties();

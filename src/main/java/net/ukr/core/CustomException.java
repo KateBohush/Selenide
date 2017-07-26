@@ -1,4 +1,4 @@
-package core;
+package net.ukr.core;
 
 
 public class CustomException extends RuntimeException {
