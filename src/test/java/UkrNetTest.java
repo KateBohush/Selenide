@@ -15,7 +15,7 @@ public class UkrNetTest extends UIBaseTest {
    public Object[][] notExistUser() {
       return new Object[][]{
             {FAKE_LOGIN, FAKE_PASSWORD},
-            {EMPTY_LOGIN, EMPTY_PASSWORD},
+            {EMPTY_STRING, EMPTY_STRING},
       };
    }
 
@@ -41,6 +41,5 @@ public class UkrNetTest extends UIBaseTest {
             .writeDraftLetterWithTheme(THEME)
             .verifyIfDraftExist(0, THEME);
    }
-
 
 }

@@ -21,14 +21,12 @@ public class MailPage {
    }
 
    public MailPage checkLetter(List<Integer> indexes) {
-      indexes.forEach(index -> {
-         getLetters().get(index).scrollTo().$("td.msglist__row-check").click();
-      });
+      indexes.forEach(index -> getLetters().get(index).scrollTo().$("td.msglist__row-check").click());
       return this;
    }
 
    public int getNumbersOfAllInputLetters() {
-      Utills.waitForRefresh(15);
+      Utills.waitForRefresh(3);
       return Integer.parseInt($(By.xpath("//a[@id=\"0\"]//span[@class=\"sidebar__list-link-count\"]")).getText());
    }
 
